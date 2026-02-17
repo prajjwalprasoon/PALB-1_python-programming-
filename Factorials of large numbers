@@ -1,0 +1,12 @@
+import math
+
+class Solution:
+    def factorial(self, n):
+       
+        res = math.factorial(n)
+        
+        res_str = str(res)
+     
+        ans = [int(digit) for digit in res_str]
+        
+        return ans
